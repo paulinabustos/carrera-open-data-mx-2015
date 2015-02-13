@@ -1,0 +1,139 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #545554;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	color: #213235;
+}
+
+p.white-text{
+	color: #fff;
+	font-size: 16px;
+}
+
+.titulo-pasos {
+	font-family:"Nunito";
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.add-top-separation {
+	margin-top: 2px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #213235;
+}
+
+.navbar-brand{
+	padding: 10px 10px;
+}
+
+.navbar-header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.navbar-static-top .navbar-nav>li>a {
+	color: #213235;
+	font-size: 12px;
+}
+
+.navbar-static-top .navbar-nav>li>a:hover {
+	color: #FEC800;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a.button {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 20px 10px 20px; 
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+a.button:hover {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 20px 10px 20px; 
+  border: 2.5px solid #FFFFFF;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+#banner{
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color: #FEC800;
+  	background: url(../images/banner.svg);
+}
+
+#pasos {
+	text-align: center;
+	background-color: #fff;
+	padding-top: 80px;
+	padding-bottom: 60px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+
+#registro-mail {
+	background-color: #213235;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	color: #fff;
+}
+
+.high-margins-text {
+  margin: 3em 0;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+input {
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  padding: 12px 180px 12px 12px; 
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.logo-datamx {
+	margin-right: 70px;
+	width: 200px;
+}
+
+.footer {
+	background-color: #FEC800;
+	height: 110px;
+	text-align: center;
+	padding: 30px;
+}
