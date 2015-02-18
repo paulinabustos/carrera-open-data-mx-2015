@@ -87,11 +87,11 @@ a.button:hover {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: #FEC800;
   padding: 10px 20px 10px 20px; 
-  border: 2.5px solid #FFFFFF;
+  background-color: #fff;
   border-radius: 15px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #banner{
@@ -113,7 +113,7 @@ a.button:hover {
 #pasos {
 	text-align: center;
 	background-color: #fff;
-	padding-top: 80px;
+	padding-top: 50px;
 	padding-bottom: 60px;
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
@@ -130,7 +130,7 @@ a.button:hover {
 h2 {
 	font-family: "Nunito", sans-serif;
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 36px;
 	color: #fff;
 }
 
@@ -140,6 +140,14 @@ h3 {
 	font-size: 20px;
 	color: #FEC800;
 	padding-top: 20px;
+}
+
+h4 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #FEC800;
+    padding-bottom: 40px;
 }
 
 .container-instrucciones {
