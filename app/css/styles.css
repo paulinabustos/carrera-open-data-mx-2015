@@ -44,6 +44,20 @@ li.add-padding-bottom {
 	padding-top: 20px;
 }
 
+.titulo-pasos-select {
+    font-family:"Nunito";
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+p.titulo-pasos-select:hover {
+    font-family:"Nunito";
+    font-size: 18px;
+    padding-top: 20px;
+    color: #FEC800;
+
+}
+
 .add-top-separation {
 	margin-top: 2px;
 	font-family: "Open Sans", sans-serif;
@@ -77,21 +91,38 @@ a.button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #fff;
-  padding: 10px 20px 10px 20px; 
+  padding: 10px 30px 10px 30px; 
   border: 2px solid #FFFFFF;
   border-radius: 15px;
   font-size: 14px;
 }
 
 a.button:hover {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
   color: #FEC800;
-  padding: 10px 20px 10px 20px; 
   background-color: #fff;
-  border-radius: 15px;
-  font-size: 14px;
+}
+
+a.register-button {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #FEC800;
+    padding: 10px 20px 10px 20px; 
+    border: 2px solid #FEC800;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+a.register-button:hover {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #213235;
+    border: 2px solid #fff;
+    padding: 10px 20px 10px 20px; 
+    background-color: #fff;
+    border-radius: 15px;
 }
 
 #banner{
@@ -161,9 +192,9 @@ h4 {
 }
 
 .high-margins-text {
-  margin: 3em 0;
+  margin: 2.5em 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
