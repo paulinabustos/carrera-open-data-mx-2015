@@ -2,7 +2,7 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	color: #545554;
+	color: #213235;
 }
 
 p {
@@ -17,6 +17,25 @@ p {
 p.white-text{
 	color: #fff;
 	font-size: 16px;
+}
+
+p.left-text{
+	text-align: left;
+	font-size: 16px;
+	color: #213235;
+}
+
+a {
+    color: #FEC800;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #edbb00;
+}
+
+li.add-padding-bottom {
+	padding-bottom: 20px;
 }
 
 .titulo-pasos {
@@ -83,6 +102,14 @@ a.button:hover {
   	background: url(../images/banner.svg);
 }
 
+#banner-instrucciones{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	background-color: #FEC800;
+  	background: url(../images/banner.svg);
+}
+
 #pasos {
 	text-align: center;
 	background-color: #fff;
@@ -107,12 +134,34 @@ h2 {
 	color: #fff;
 }
 
+h3 {
+	font-family: "Nunito", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FEC800;
+	padding-top: 20px;
+}
+
+.container-instrucciones {
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.container-preguntas {
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
 .high-margins-text {
   margin: 3em 0;
   color: #fff;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+}
+
+input {
+	color: #213235;
 }
 
 input {
@@ -126,6 +175,20 @@ input {
   margin-left: 10px;
 }
 
+.resize-image {
+	max-width: 100%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #213235;
+	border-radius: 5px;
+}
+
+.image-container{
+	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
 .logo-datamx {
 	margin-right: 70px;
 	width: 200px;
@@ -136,4 +199,5 @@ input {
 	height: 110px;
 	text-align: center;
 	padding: 30px;
+	max-width: 100%
 }
