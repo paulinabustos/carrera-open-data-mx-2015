@@ -19,12 +19,6 @@ p.white-text{
 	font-size: 16px;
 }
 
-p.left-text{
-	text-align: left;
-	font-size: 16px;
-	color: #213235;
-}
-
 a {
     color: #FEC800;
 }
@@ -98,7 +92,7 @@ a.button {
 }
 
 a.button:hover {
-  color: #FEC800;
+  color: #213235;
   background-color: #fff;
 }
 
@@ -127,18 +121,18 @@ a.register-button:hover {
 
 #banner{
 	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	background-color: #FEC800;
-  	background: url(../images/banner.svg);
+	padding-top: 185px;
+	padding-bottom: 185px;
+    background-color: #213235;
+  	background: url(../images/bannerazul.svg);
 }
 
 #banner-instrucciones{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 60px;
-	background-color: #FEC800;
-  	background: url(../images/banner.svg);
+    background-color: #213235;
+  	background: url(../images/bannerazul.svg);
 }
 
 #pasos {
